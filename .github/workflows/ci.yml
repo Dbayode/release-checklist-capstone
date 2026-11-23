@@ -41,3 +41,6 @@ jobs:
 
       - name: Build the app
         run: npm run build
+
+      - name: Check JavaScript bundle size
+        run: node scripts/check-bundle-size.mjs
